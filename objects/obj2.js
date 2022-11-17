@@ -1,11 +1,3 @@
-/*
-            objects are typically constants 
-            
-            we can chnage the properties of the object inside the container. we cannot remove
-            or replace the object from the container.
-*/
-
-
 const backpack = {
     name: 'everyday backpack',
     volume: 30,
@@ -24,5 +16,3 @@ const backpack = {
         this.strapLength.right = lengthRight;
     },
 };
-backpack.volume = 40;
-console.log(backpack);
