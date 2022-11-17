@@ -1,2 +1,0 @@
-# JS
-journey with JavaScript
