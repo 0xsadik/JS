@@ -1,4 +1,4 @@
-//      accessing object properties using bracket notation
+//      accessing object properties using bracket []  notation
 
 
 const backpack = {
