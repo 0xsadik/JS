@@ -88,3 +88,17 @@
 
 
 
+// const children = document.querySelector('.item');
+// const parent = children.parentElement;
+// console.log(parent);
+
+
+// const children = document.querySelector('.item');
+
+// const grandparent = children.closest('.todo-list');
+// console.log(grandparent);
+
+
+const childrenOne = document.querySelector('.item');
+const childrenTwo = childrenOne.nextElementSibling;
+console.log(childrenTwo);
