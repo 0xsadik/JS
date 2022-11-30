@@ -44,5 +44,12 @@ const movies = [
 // Challange question #3
 // Determin how many of the movies are rating R.
 
+let ratedMovies = movies.reduce((acc, movie) => {
+    if(movie.rating === 'R') {
+        acc++;
+    }
+    return acc;
+}, 0);
+console.log('ratedRMovies',ratedMovies);
 
 
