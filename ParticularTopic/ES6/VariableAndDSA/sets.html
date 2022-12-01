@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sets</title>
+</head>
+<body>
+    
+
+    <script>
+
+        let books = new Set();
+        books.add('pride and prejudice');
+        books.add('war and peace');
+        books.add('Oliver Twist');
+
+        books.delete('Oliver Twist');
+
+        books.forEach(function (item) {
+            console.log(item);
+        });
+
+        console.log(books);
+        console.log(books.size);
+        console.log('has oliver twist', books.has('Oliver Twist'))
+
+    </script>
+</body>
+</html>
