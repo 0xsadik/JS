@@ -1,4 +1,4 @@
-/*           ===== javaScript objects =====
+    /*           ===== javaScript objects =====
 
                     - objects are variables too. But, objects can contain many values;
                     
