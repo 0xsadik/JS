@@ -22,3 +22,4 @@ function reverse(s) {
   }
   
 console.log(reverse('torikus'));
+
