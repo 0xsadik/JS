@@ -32,3 +32,5 @@ function isCherries(fruit) {
 
 const found = inventory.find(isCherries);
 console.log(found);
+
+
