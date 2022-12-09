@@ -130,8 +130,71 @@
 // }
 
 
-for (let i = 0; i <= 100; i++) {
-    if (i < 2 && i % 2 === 0 ) {
-        break;
-    }
+// 9. --------------------
+
+// 10. -------------------
+
+// let sum = 0;
+// for (let i = 0; i <= 100; i++) {
+//     sum = sum + i;
+// }
+// console.log(`The sum of all numbers from 0 to 100 is ${sum}.`);
+
+
+// 11. -------------------------
+
+// let even = 0;
+// let odd = 0;
+// for (let i = 0; i <= 100; i++) {
+//     if (i % 2 === 0) {
+//         even = even + i;
+//     }
+//     if (i % 2 !== 0) {
+//         odd = odd + i;
+//     }
+// }
+// console.log(`even cal: ${even} odd cal: ${odd}`);
+
+// 12. ------------------
+
+// let even = 0;
+// let odd = 0;
+// let evenOdd = [];
+// for(let i = 0; i <= 100; i++) {
+//     if (i % 2 === 0) {
+//         even = even + i;
+//     }
+//     if (i % 2 !== 0) {
+//         odd = odd + i;
+//     }
+// }
+// evenOdd.push(even, odd);
+// console.log(evenOdd);
+
+
+// 13. ------------------------
+
+// console.log(Array.from({length: 10}, () => Math.random() * 10));
+// console.log(Array.from({length: 10}, () => Math.floor(Math.random() * 10)));
+
+
+// 14. ---------------------
+
+
+// 15. Develop a small script which generate a six characters random id
+
+var ans =  '';
+var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+var charLength = characters.length;
+for (var i = 0; i < 6; i++) {
+    ans = ans + characters.charAt(Math.floor(Math.random() * charLength));
 }
+console.log(ans);
+
+
+
+
+
+
+// let r = (Math.random() + 1).toString(36).substring(7);
+// console.log(r);
