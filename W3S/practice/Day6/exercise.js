@@ -172,6 +172,8 @@
 // console.log(evenOdd);
 
 
+
+
 // 13. ------------------------
 
 // console.log(Array.from({length: 10}, () => Math.random() * 10));
@@ -183,13 +185,13 @@
 
 // 15. Develop a small script which generate a six characters random id
 
-var ans =  '';
-var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-var charLength = characters.length;
-for (var i = 0; i < 6; i++) {
-    ans = ans + characters.charAt(Math.floor(Math.random() * charLength));
-}
-console.log(ans);
+// var ans =  '';
+// var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+// var charLength = characters.length;
+// for (var i = 0; i < 6; i++) {
+//     ans = ans + characters.charAt(Math.floor(Math.random() * charLength));
+// }
+// console.log(ans);
 
 
 
