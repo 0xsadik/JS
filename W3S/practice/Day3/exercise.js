@@ -30,3 +30,9 @@
 
 // 4. 
 
+// let txt1 = 'python';
+// let txt2 = 'jargon';
+// console.log(`length of python is ${txt1.length} and length of jargon is ${txt2.length}`);
+// console.log(txt1 === txt2);
+
+
