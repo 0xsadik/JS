@@ -194,9 +194,21 @@
 // console.log(ans);
 
 
-
-
-
-
 // let r = (Math.random() + 1).toString(36).substring(7);
 // console.log(r);
+
+
+
+// 16. print all the elements of the array as shown bellow
+
+
+
+
+const fullStack = [
+    ['HTML', 'CSS', 'JS', 'React'],
+    ['Node', 'Express', 'MongoDB']
+];
+
+for ( element of fullStack) {
+    console.log(element.join(' '));
+}
