@@ -68,6 +68,8 @@
 
 
 
+
+
 // const parent = document.querySelector('#items');
 // const children = parent.children;
 
@@ -99,6 +101,42 @@
 // console.log(grandparent);
 
 
-const childrenOne = document.querySelector('.item');
-const childrenTwo = childrenOne.nextElementSibling;
-console.log(childrenTwo);
+// const childrenOne = document.querySelector('.item');
+// const childrenTwo = childrenOne.nextElementSibling;
+// // console.log(childrenTwo);
+// childrenTwo.style.color = 'red';
+
+
+// const childrenTwo = document.querySelector('.item').nextElementSibling;
+// const childrenOne = childrenTwo.previousElementSibling;
+// childrenOne.style.color = 'green';
+
+
+
+
+// -> manipulate the DOM 
+
+// creating an element 
+
+// const divElement = document.createElement('div');
+// divElement.className = 'red';
+// divElement.setAttribute('id', 'red');
+// divElement.setAttribute('tittle', 'Red Div');
+
+
+// const container = document.querySelector('.todo-list');
+// const h2Element = container.querySelector('h2');
+// container.insertBefore(divElement, h2Element);
+
+// const container = document.querySelector('.todo-list');
+// container.appendChild(divElement);
+// container.appendChild(divElement);
+
+
+
+
+
+// -> event listeners
+
+const headerElement = document.querySelector('#header');
+headerElement.addEventListener('click');
