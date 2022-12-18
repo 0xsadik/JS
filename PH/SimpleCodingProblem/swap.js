@@ -4,3 +4,4 @@ var second = 7;
 first = second;
 second = temp;
 console.log(first, second);
+
