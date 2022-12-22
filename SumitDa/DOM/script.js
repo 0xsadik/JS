@@ -139,4 +139,44 @@
 // -> event listeners
 
 const headerElement = document.querySelector('#header');
-headerElement.addEventListener('click');
+// headerElement.addEventListener('click', (event) => {
+//     console.log(event);
+// });
+
+// double click
+
+// headerElement.addEventListener('dblclick', (event) => {
+//     console.log(event);
+// });
+
+// mouse down
+
+// headerElement.addEventListener('mousedown', (event) => {
+//     console.log(event);
+// });
+
+// mouse up
+
+// headerElement.addEventListener('mouseup', (event) => {
+//     console.log(event);
+// });
+
+//  mouse enter
+
+// headerElement.addEventListener('mouseenter', (event) => {
+//     console.log(event);
+// });
+
+
+// mouse leave 
+// headerElement.addEventListener('mouseleave', (event) => {
+//     console.log(event);
+// });
+
+// mouse over 
+
+headerElement.addEventListener('mouseover', (event) => {
+    console.log(event);
+});
+
+
