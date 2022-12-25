@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>query selecotr</title>
+</head>
+<body>
+    <div id="wrap">
+        <p class="change">HTTPS</p>
+        <p class="html">HTML</p>
+        <p class="css">CSS</p>
+        <p class="js">Js</p>
+    </div>
+
+
+    <script>
+        let change = document.querySelector('.change');
+        let html = document.querySelector('.html');
+        let css = document.querySelector('.css');
+        let js = document.querySelector('.js')
+
+        change.addEventListener('click', () => {
+            change.innerText = 'Hyper Text Transfer Protocol Secure'
+        });
+
+        html.addEventListener('click', () => {
+            html.innerText = 'Hyper Text Markup Language';
+        })
+        
+        
+        css.addEventListener('click', () => {
+            css.innerText = 'Cascading Style Sheets';
+        })
+        
+        
+        js.addEventListener('click', () => {
+            js.innerText = 'JavaScript';
+        })
+    </script>
+</body>
+</html>
