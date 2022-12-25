@@ -22,6 +22,17 @@
         This is third paragraph
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed minus impedit quas veniam dolore exercitationem at odit perferendis veritatis?
     </p>
+    <button id="btnCount">Count all heading1</button>
+    <p id="showme"></p>
 
+    <script>
+        let btn = document.getElementById('btnCount');
+        let showme = document.getElementById('showme');
+
+        btn.addEventListener('click', () => {
+            let headings = document.getElementsByTagName('h1');
+            showme.innerText = `There are ${headings.length} headings in this entire page.`
+        })
+    </script>
 </body>
 </html>
