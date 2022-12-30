@@ -8,8 +8,11 @@ function removeDuplicate(names) {
     // }
 
     for (element of names) {
-        console.log(elements);
-        if (unique.indexOf(elements))
+        console.log(element);
+        if (unique.indexOf(element) == -1) {
+            unique.push(element);
+        }
     }
+    console.log(unique);
 }
 removeDuplicate(names)
